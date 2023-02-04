@@ -1,6 +1,6 @@
 # Token Boyz 🤑💲
 
-### Get all tokens from a wallet address
+### Get all tokens from a wallet address 💸
 
 - Create a `.env` file with the following content:
 
@@ -27,5 +27,24 @@ node main.js
 ```
 
 - To get native tokens, we can use `wagmi`.🚀🔥
+
+---
+
+## Some interesting APIS 🥳
+
+#### Medium blog url:
+ https://towardsdatascience.com/obtaining-historical-and-real-time-crypto-data-with-very-simple-web-programming-7b481f153630 
+
+- API to get current price of a token:
+
+```sh
+https://min-api.cryptocompare.com/data/price?fsym=USDC&tsyms=INR
+```
+
+- API to get historical price of a token:
+
+```sh
+https://min-api.cryptocompare.com/data/v2/histohour?fsym=ETH&tsym=USD&limit=2000&toTs=-1&api_key=YOURKEYHERE
+```
 
 # ================== 🤑 ==================
