@@ -16,7 +16,7 @@ const myNetworks = [
 const config = {
 	apiKey: process.env.API_KEY,
 
-	network: Network.OPT_MAINNET,
+	network: myNetworks[0],
 };
 const alchemy = new Alchemy(config);
 
